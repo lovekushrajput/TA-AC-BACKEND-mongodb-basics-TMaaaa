@@ -174,5 +174,6 @@ Insert above data into database to perform below queries:-
 - Find all users whose name includes 'ri' in their name.
 
 
+
  
  

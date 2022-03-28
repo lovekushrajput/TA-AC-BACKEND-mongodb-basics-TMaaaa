@@ -31,12 +31,13 @@ Write code to execute below expressions.
   tags: ['js', 'mongo']
 }
 ```
+db.articles.find( {title: 'BatMan'}, {$set: {title: 'SuperMan'}})
 
 4. Find all the articles using `db.COLLECTION_NAME.find()`
 5. Find a document using \_id field.
 6. 1. Find documents using title
 7. 2. Find documents using author's name field.
-8. Find document using a specific tag.
+8. Find document using a specific tag.d
 
 9. Update title of a document using its \_id field.
 10. Update a author's name using article's title.
@@ -171,3 +172,7 @@ Insert above data into database to perform below queries:-
 - Update user with extra golf field in sports array whose name is "Steve Ortega".
 - Find all users who play either 'football' or 'cricket'.
 - Find all users whose name includes 'ri' in their name.
+
+
+ 
+ 
